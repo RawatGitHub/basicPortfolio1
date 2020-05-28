@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="icon" href="img/iconn.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"></link>
+	<link rel="stylesheet" href="css/portfolio.css">
+	<title>MY PORTFOLIO</title>
+</head>
+<body>
+
+<section class="sec1 bg-dark">
+  <div class="row bg-dark w-100 h-75">
+    <div class="col-lg-3 w-100" id="mypic">
+      <img src="img/me5.jpg" alt="me"  class="w-100 h-100">
+    </div>
+    
+    <div class="col-lg-9 text-white">
+      <div class="heading p-5 d-flex w-100">
+        <h1 class="display-3 d-inline">
+          Amit Rawat
+        </h1>
+
+      </div>
+      <h3 class="desig">Full Stack Developer</h3>
+      <div class="links">
+          <div class="bg-success homesec" onclick="getHome();">
+            <i class="fas fa-home fa-2x"></i>home</div>
+
+          <div class="bg-danger resumesec" onclick="getResume();">
+            <i class="fas fa-graduation-cap fa-2x"></i>resume</div>
+
+          <div class="bg-primary worksec" onclick="getWork();">
+            <i class="fas fa-folder fa-2x"></i>work</div>
+
+          <div class="bg-warning contactsec" onclick="getContact();">
+            <i class="fas fa-envelope fa-2x"></i>contact</div>
+      </div>
+    </div>
+    </div>
+    
+
+    <!-- MY HOME SECTION -->
+    <div class="content font-weight-bolder" id="home" style="display: none;">
+        <div class="head bg-success text-light p-5">
+          <h1 class="font-weight-bolder">My Resume</h1>
+          <p class="text-capitalize mt-2">This is my first web portfolio developed by me. you can also download this portfolio</p>
+        </div>
+        <div class="skills p-5">
+          <h2 class="font-weight-bolder">My Skills</h2>
+          <p class="text-capitalize mt-2">here is some showcases of skills that i possess over the years</p>
+        </div>
+        
+        <div class="wrap ml-5 font-weight-bold" id="html">
+            <h3 class="mb-1 ">HTML</h3>
+          <div class="progress container  rounded-pill">
+              <div class="progress-bar progress-bar-animated progress-bar-striped" style="width: 98%">
+                <strong>98%</strong>
+              </div>    
+          </div>
+        </div>
+
+
+        <div class="wrap ml-5 font-weight-bold" id="css">
+            <h3 class="mb-1 ">CSS</h3>
+          <div class="progress container  rounded-pill ">
+              <div class="progress-bar progress-bar-animated bg-danger progress-bar-striped" style="width: 94%">
+                <strong>94%</strong>
+              </div>    
+          </div>
+        </div>
+
+
+
+        <div class="wrap ml-5 font-weight-bold" id="js">
+            <h3 class="mb-1 ">JS</h3>
+          <div class="progress container rounded-pill ">
+              <div class="progress-bar progress-bar-animated bg-warning progress-bar-striped" style="width: 90%">
+                <strong>90%</strong>
+              </div>    
+          </div>
+        </div>
+
+
+
+        <div class="wrap ml-5 font-weight-bold" id="php">
+            <h3 class="mb-1 ">PHP</h3>
+          <div class="progress container rounded-pill">
+              <div class="progress-bar bg-info progress-bar-animated progress-bar-striped" style="width: 86%">
+                <strong>86%</strong>
+              </div>    
+          </div>
+        </div>
+      </div>  <!-- MY HOME SECTION END-->
+
+
+
+      <!-- MY RESEUME SECTION -->
+      <div class="content" style="display: none;" id="resume">
+          <div class="head bg-danger text-light p-5">
+           <h1 class="font-weight-bolder">My Resume</h1>
+            <p class="text-capitalize mt-2 font-weight-bold">This is my first web portfolio developed by me. you can also download this portfolio</p>
+        </div>
+        <div class="resume p-5">
+          <h2 class="font-weight-bolder">Where i have worked?</h2>
+          <p class="text-capitalize mt-2 font-weight-bold">here is the list of companies where i have given my services and gain some knowledge</p>
+        </div>
+
+        <div class="container text-center m-auto">
+         <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                <h5 class='font-weight-bold text-uppercase'>full stack developer</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore velit eveniet eius assumenda itaque minus provident quidem!</p>
+                <div class='as bg-dark text-light my-4 p-2'>As a Front End Developer</div>
+                <div class='as bg-dark text-light my-4 p-2'>As a Back End Developer</div>
+              </div>
+              <div class="card-footer">
+                Dates: 2015-2017
+              </div>
+            </div>
+          </div>
+
+         <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                <h5 class='font-weight-bold text-uppercase'>full stack developer</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore velit eveniet eius assumenda itaque minus provident quidem!</p>
+                <div class='as bg-dark text-light my-4 p-2'>As a Front End Developer</div>
+                <div class='as bg-dark text-light my-4 p-2'>As a Back End Developer</div>
+              </div>
+              <div class="card-footer">
+                Dates: 2015-2017
+              </div>
+            </div>
+          </div>
+
+         <div class="col-md-4">
+            <div class="card">
+              <div class="card-header">
+                <h5 class='font-weight-bold text-uppercase'>full stack developer</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore velit eveniet eius assumenda itaque minus provident quidem!</p>
+                <div class='as bg-dark text-light my-4 p-2'>As a Front End Developer</div>
+                <div class='as bg-dark text-light my-4 p-2'>As a Back End Developer</div>
+              </div>
+              <div class="card-footer">
+                Dates: 2015-2017
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div> <!-- MY RESUME SECTION END -->
+
+
+
+
+     <!-- CONTACT ME SECTION -->
+      <div class="content" id="contact" style="display: none;">
+          <div class="head bg-warning text-light p-5">
+           <h1 class="font-weight-bolder">Contact ME</h1>
+            <p class="mt-2 font-weight-bold">You can contact me by filling up this form</p>
+        </div>
+        <div class="contactform p-5 w-75 mx-auto">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg bg-light rounded-0" required placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg bg-light rounded-0" required placeholder="Email">
+            </div>
+            <div class="form-group">
+             <textarea cols="30" rows="3" class="form-control form-control-lg bg-light rounded-0" required placeholder="Message"></textarea>
+            </div>
+            <button class="btn btn-warning px-4 py-2">Send</button>
+          </form>
+        </div>
+      </div> <!-- CONTACT ME SECTION END -->
+
+
+
+
+
+      <!-- MY WORK SECTION -->
+      <div class="content" id="mywork" style="display: none;">
+       <div class="head bg-primary text-light p-5">
+           <h1 class="font-weight-bolder">My Work</h1>
+            <p class="mt-2 font-weight-bold">this is my work section which illustrates some project developed by me</p>
+        </div>
+        <div class="mywork p-5">
+          <h2 class="font-weight-bolder">What i have built?</h2>
+          <p class="text-capitalize mt-2 font-weight-bold">here are some of the project that i build for my company and for my clients</p>
+        </div>
+
+
+        <div class="container text-center m-auto">
+         <div class="row">
+          <div class="col-md-4">
+                <img src="img/1.png" class="img-fluid" alt="1.png">
+          </div>
+
+         <div class="col-md-4">
+          <img src="img/2.png" class="img-fluid" alt="2.png">
+          </div>
+
+         <div class="col-md-4">
+              <img src="img/3.png" class="img-fluid" alt="3.png">
+          </div>
+        </div>
+
+
+        <div class="row mb-3">
+          <div class="col-md-4">
+                <img src="img/5.png" class="img-fluid" alt="1.png">
+          </div>
+
+         <div class="col-md-4">
+          <img src="img/4.png" class="img-fluid" alt="6.png">
+          </div>
+
+         <div class="col-md-4">
+              <img src="img/1.png" class="img-fluid" alt="3.png">
+          </div>
+        </div>
+
+
+        </div>
+
+
+
+      </div> <!-- MY WORK SECTION END -->
+    
+    
+
+
+  <div class="download d-flex justify-content-center align-items-center h-25 bg-dark">
+    <a href="img/download.png" download="download" class="btn btn-light font-weight-bold py-3 px-5">
+      <i class="fas fa-download"></i> Download</a>
+  </div>
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+
+<script>
+  
+  function getHome() {
+
+    const home = document.getElementById("home");
+    const resume = document.getElementById("resume");
+    const contact = document.getElementById("contact");
+    const mywork = document.getElementById("mywork");
+
+    if(home.style.display === 'block'){
+      home.style.display = 'none';
+    }
+    else{
+      home.style.display    = 'block';
+      resume.style.display  = 'none';
+      contact.style.display = 'none';
+      mywork.style.display  = 'none';
+
+    }
+
+  }
+
+ function getResume() {
+
+    const home = document.getElementById("home");
+    const resume = document.getElementById("resume");
+    const contact = document.getElementById("contact");
+    const mywork = document.getElementById("mywork");
+
+    if(resume.style.display === 'block'){
+      resume.style.display = 'none';
+    }
+    else{
+      home.style.display    = 'none';
+      resume.style.display  = 'block';
+      contact.style.display = 'none';
+      mywork.style.display  = 'none';
+    }
+
+  }
+
+
+
+ function getContact() {
+
+    const home = document.getElementById("home");
+    const resume = document.getElementById("resume");
+    const contact = document.getElementById("contact");
+    const mywork = document.getElementById("mywork");
+
+    if(contact.style.display === 'block'){
+      contact.style.display = 'none';
+    }
+    else{
+      home.style.display    = 'none';
+      resume.style.display  = 'none';
+      contact.style.display = 'block';
+      mywork.style.display  = 'none';
+    }
+
+  }
+
+
+
+   function getWork() {
+
+    const home = document.getElementById("home");
+    const resume = document.getElementById("resume");
+    const contact = document.getElementById("contact");
+    const mywork = document.getElementById("mywork");
+
+    if(mywork.style.display === 'block'){
+      mywork.style.display = 'none';
+
+    }
+    else{
+      home.style.display    = 'none';
+      resume.style.display  = 'none';
+      contact.style.display = 'none';
+      mywork.style.display  = 'block';
+    }
+
+  }
+
+
+</script>
+</body>
+</html>
+
+
+
+
